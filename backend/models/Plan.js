@@ -9,3 +9,5 @@ const planSchema = new Schema({
 	},
 	duration: Number
 });
+
+module.exports = mongoose.model('Plan', planSchema);
